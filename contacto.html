@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>FORMULARIO BASE PARA CONTACTO</title>
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+</head>
+
+<body>
+  <div class="container">
+    <form>
+      <div class="form-group">
+        <h2 class="text-center">CONTACTA CON NOSOTROS</h2>
+        <br></br>
+        <div class="form-row">
+          <div class="col-md-4 mb-3">
+            <label for="validationCustom01">Nombre</label>
+            <input type="text" class="form-control" id="validationCustom01" value="" required>
+            <div class="valid-feedback">
+              Looks good!
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="validationCustom02">Apellido</label>
+            <input type="text" class="form-control" id="validationCustom02" value="" required>
+            <div class="valid-feedback">
+              Gracias!
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <label for="validationCustomUsername">Código Cliente</label>
+            <div class="input-group">
+              <div class="input-group-prepend">
+                <span class="input-group-text" id="inputGroupPrepend">#</span>
+              </div>
+              <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend">
+              <div class="invalid-feedback">
+                Por favor indica tu nombre.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <label class="" for="exampleInputEmail1">Email</label>
+        <input type="email" class="form-control form-control-md" id="exampleInputEmail1" aria-describedby="emailHelp">
+        <small id="emailHelp" class="form-text text-muted">Tu email se usará internamente, no será expuesto públicamente.</small>
+      </div>
+      <div class="form-group">
+        <label class="" for="tArea">Tu mensaje</label> <br>
+        <textarea type="textarea" id="tArea" rows="8" cols="74"></textarea>
+      </div>
+      <div class="form-group form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Notificar respuesta</label>
+      </div>
+
+      <div class="form-row">
+        <div class="col-md-6 mb-3">
+          <label for="">Archivo</label>
+          <div class="custom-file">
+            <input type="file" class="custom-file-input" id="inputGroupFile01" aria-describedby="inputGroupFileAddon01">
+            <label class="custom-file-label" for="inputGroupFile01">Elige un archivo</label>
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <label for="validationCustom04">Asunto</label>
+          <select class="custom-select" id="validationCustom04" required>
+            <option selected disabled value="">Elige...</option>
+            <option>...</option>
+          </select>
+          <div class="invalid-feedback">
+            Please select a valid state.
+          </div>
+        </div>
+        <div class="col-md-3 mb-3">
+          <label for="validationCustom05">Ciudad</label>
+          <input type="text" class="form-control" id="validationCustom05" required>
+          <div class="invalid-feedback">
+            Por favor, selecciona una ciudad.
+          </div>
+        </div>
+      </div>
+
+      <button type="submit" class="btn btn-primary">Enviar</button>
+
+    </form>
+  </div>
+</body>
+<script scr="./js/pooper.min.js"></script>
+<script scr="./js/jquery-3.4.1.min.js"></script>
+<script scr="./js/bootstrap.min.js"></script>
+
+</html>
