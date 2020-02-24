@@ -8,6 +8,11 @@ body {
     background-color: #fd4345;
 }
 
+video {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
 .carousel-caption h1 {
     margin-bottom: 2.5em;
 }
