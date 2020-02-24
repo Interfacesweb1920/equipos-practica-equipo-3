@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway'!important;
+}
+
+body {
+    background-color: #fd4345;
+}
+
+.carousel-caption h1 {
+    margin-bottom: 2.5em;
+}
+
+h1 {
+    font-family: 'Secular One'!important;
+    font-size: 4em;
+}
+
+.row {
+    margin: 10px;
+}
+
+.container {
+    padding: 1em;
+    padding-top: 0;
+}
+
+button {
+    width: 100%;
+}
+
+.card-header .btn {
+    color: #f2f2f2;
+    padding: 0.8em;
+}
+
+.card-header {
+    padding: 0;
+    background-color: #21477b;
+}
+
+.card {
+    border: none!important;
+}
+
+.fade {
+    opacity: 1;
+}

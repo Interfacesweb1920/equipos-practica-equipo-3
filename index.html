@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=s, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Secular+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="css_extra.css">
 </head>
 
 <body>
@@ -14,30 +16,30 @@
         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active" data-interval="5000">
-                    <video class="d-block w-100" alt="..." muted autoplay loop preload>
+                    <video class="d-block w-100" alt="video de musculación" muted autoplay loop preload>
                         <source src="videos/video1.mp4" type="video/mp4">
                     </video>
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>MUSCULACIÓN!</h5>
-                        <p>...</p>
+                        <h1>MUSCULACIÓN</h1>
+                        <p></p>
                     </div>
                 </div>
                 <div class="carousel-item" data-interval="5000">
-                    <video class="d-block w-100" alt="..." muted autoplay loop preload>
+                    <video class="d-block w-100" alt="video de gimnasia" muted autoplay loop preload>
                 <source src="videos/video2.mp4" type="video/mp4">
                 </video>
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>GIMNASIA!</h5>
-                        <p>...</p>
+                        <h1>GIMNASIA</h1>
+                        <p></p>
                     </div>
                 </div>
                 <div class="carousel-item" data-interval="5000">
-                    <video class="d-block w-100" alt="..." muted autoplay loop preload>
+                    <video class="d-block w-100" alt="video de peso ligero" muted autoplay loop preload>
                 <source src="videos/video3.mp4" type="video/mp4">
                 </video>
                     <div class="carousel-caption d-none d-md-block">
-                        <h5></h5>
-                        <p>...</p>
+                        <h1>PESO LIGERO</h1>
+                        <p></p>
                     </div>
                 </div>
             </div>
@@ -50,11 +52,80 @@
                 <span class="sr-only">Next</span>
             </a>
         </div>
-    </div>
 
+        <div class="row"></div>
+
+        <div class="accordion fade" id="accordionExample">
+            <div class="card">
+                <div class="card-header" id="service1">
+
+                    <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapseOne">
+                    CARDIO
+                  </button>
+
+                </div>
+
+                <div id="collapse1" class="collapse" aria-labelledby="service1" data-parent="#accordionExample">
+                    <div class="card-body text-center">
+                        El entrenamiento de cardio se realiza utilizando diferentes máquinas, como la cinta de correr, la elíptica y la bicicleta estática
+                        <br>
+                        <a href="">Descubre más...</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="service2">
+
+                    <button class="btn  collapsed" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapseTwo">
+                    FUERZA
+                  </button>
+
+                </div>
+                <div id="collapse2" class="collapse" aria-labelledby="service2" data-parent="#accordionExample">
+                    <div class="card-body text-center">
+                        El ejercicio de fuerza es el uso de la resistencia para lograr la contracción muscular, y así incrementar la resistencia anaeróbica, la fuerza muscular y el tamaño de los músculos
+                        <br>
+                        <a href="">Descubre más...</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="service3">
+
+                    <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapseThree">
+                    FUNCIONAL
+                  </button>
+
+                </div>
+                <div id="collapse3" class="collapse" aria-labelledby="service3" data-parent="#accordionExample">
+                    <div class="card-body text-center">Entrenamiento funcional es entrenar con un propósito concreto. Todo el entrenamiento se diseña y enfoca para alcanzar el objetivo
+                        <br>
+                        <a href="">Descubre más...</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="service4">
+
+                    <button class="btn collapsed" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapseThree">
+                    PESO LIBRE
+                  </button>
+
+                </div>
+                <div id="collapse4" class="collapse" aria-labelledby="service4" data-parent="#accordionExample">
+                    <div class="card-body text-center">
+                        En el entrenamiento con pesas libres tus movimientos no serán dirigidos, por lo que reforzarás los músculos posturales y de apoyo
+                        <br>
+                        <a href="">Descubre más...</a></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
 </body>
 
 </html>
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="script.js"></script>
