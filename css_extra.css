@@ -6,6 +6,7 @@
 
 body {
     background-color: #fd4345;
+    background: url("logo.png");
 }
 
 video {
@@ -29,6 +30,7 @@ h1 {
 .container {
     padding: 1em;
     padding-top: 0;
+    background-color: #21477b;
 }
 
 button {
@@ -36,13 +38,21 @@ button {
 }
 
 .card-header .btn {
-    color: #f2f2f2;
+    color: #21477b;
     padding: 0.8em;
 }
 
 .card-header {
     padding: 0;
-    background-color: #21477b;
+    background-color: #f2f2f2;
+}
+
+.card-header:hover {
+    background-color: #fd4345;
+}
+
+.card-header .btn:hover {
+    color: #f2f2f2!important;
 }
 
 .card {
