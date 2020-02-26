@@ -96,7 +96,8 @@ button {
 
 @keyframes bg-scrolling-reverse {
     100% {
-        background-position: 0px 100px;
+        background-position: 0px 50px;
+        /* Fran lo ha cambiado de 100px a 50px */
     }
 }
 
