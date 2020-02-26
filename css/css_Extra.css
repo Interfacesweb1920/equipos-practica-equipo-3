@@ -103,7 +103,6 @@ button {
 
 footer {
     margin-top: 1em;
-    background-color: black;
 }
 
 .footer {
@@ -111,4 +110,11 @@ footer {
     padding-bottom: 1em;
     display: flex;
     justify-content: space-between;
+    border: 2px solid red;
+}
+
+i {
+    font-size: 2em;
+    display: block;
+    color: white;
 }
