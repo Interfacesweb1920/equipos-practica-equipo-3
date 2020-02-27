@@ -17,8 +17,8 @@ body {
     animation-timing-function: linear;
 }
 
-a p {
-    color: #21477b;
+.azul {
+    color: #21477b
 }
 
 .portada {
@@ -51,7 +51,8 @@ h1 {
 }
 
 h2,
-p {
+p,
+span {
     font-family: 'Raleway'!important;
 }
 
@@ -176,10 +177,6 @@ div i {
 
 .normal-size {
     font-size: 1em
-}
-
-.azul {
-    color: #21477b
 }
 
 #multilangMenu {
