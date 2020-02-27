@@ -1,7 +1,6 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: 'Raleway'!important;
     color: #f2f2f2;
 }
 
@@ -30,6 +29,11 @@ video {
 h1 {
     font-family: 'Secular One'!important;
     font-size: 4em;
+}
+
+h2,
+p {
+    font-family: 'Raleway'!important;
 }
 
 .row {
@@ -113,8 +117,19 @@ button {
     vertical-align: middle;
 }
 
-i {
-    font-family: 'Font Awesome 5 Brands'!important;
+.map-container-6 {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 0;
+}
+
+.map-container-6 iframe {
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
 }
 
 @media (max-width:767px) {
@@ -122,4 +137,44 @@ i {
         text-align: center!important;
         margin-top: 5px;
     }
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+.input-group-text {
+    background-color: #f2f2f2;
+}
+
+.input-group {
+    margin-bottom: 2.5em!important;
+}
+
+div i {
+    font-size: 2em;
+    color: #f2f2f2;
+}
+
+.normal-size {
+    font-size: 1em
+}
+
+.azul {
+    color: #21477b
+}
+
+#multilangMenu {
+    position: absolute;
+    top: 0;
+    right: 10vw;
+    list-style: none;
+}
+
+#multilangMenu img {
+    width: 35px;
+    margin: 5px
+}
+
+#multilangMenu li {
+    display: inline;
 }
