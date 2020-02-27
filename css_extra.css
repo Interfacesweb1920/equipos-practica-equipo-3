@@ -21,6 +21,10 @@ body {
     color: #21477b
 }
 
+.active {
+    color: #fd4345;
+}
+
 .portada {
     background-image: url('portada.jpg');
     background-repeat: no-repeat;
