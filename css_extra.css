@@ -104,6 +104,22 @@ button {
 .footer {
     padding: 2em;
     padding-bottom: 1em;
-    display: flex;
     justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap
+}
+
+.footer div {
+    vertical-align: middle;
+}
+
+i {
+    font-family: 'Font Awesome 5 Brands'!important;
+}
+
+@media (max-width:767px) {
+    .footer div {
+        text-align: center!important;
+        margin-top: 5px;
+    }
 }
