@@ -16,27 +16,53 @@
     <div id="traduct">
         <!-- Header -->
         <div class="container">
-            <img src="https://picsum.photos/1000/150" style="width: 100%; ">
-            <div style="margin-top: -15%; color: white; text-shadow: 2px 2px 5px #fd4345">
+            <div class="header portada">
                 <h1 class="text-center">CHARMING HAMSTER'S</h1>
                 <h1 class="text-center">GYM</h1>
             </div>
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <!-- <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
-          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button> -->
-                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div id="navbarNav" class="collapse navbar-collapse justify-content-end">
                     <ul class="navbar-nav">
-                        <li class="nav-item active">
-                            <a class="nav-link" href="#">Home<span class="sr-only">(current)</span></a>
-                        </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Features</a>
+                            <a class="nav-link" href="index.html">
+                                <span class="multilang azul" lang="en">Home</span>
+                                <span class="multilang azul" lang="es">Inicio</span>
+                            </a>
                         </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                                <span class="multilang active" lang="en">Exercises</span>
+                                <span class="multilang active" lang="es">Ejercicios</span>
+                            </a>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="section1.html">
+                                    <span class="multilang azul" lang="en">Cardio</span>
+                                    <span class="multilang azul" lang="es">Cardio</span>
+                                </a>
+                                <a class="dropdown-item" href="section2.html">
+                                    <span class="multilang active" lang="en">Force</span>
+                                    <span class="multilang active" lang="es">Fuerza</span>
+                                </a>
+                                <a class="dropdown-item" href="section3.html">
+                                    <span class="multilang azul" lang="en">Functional</span>
+                                    <span class="multilang azul" lang="es">Funcional</span>
+                                </a>
+                                <a class="dropdown-item" href="section4.html">
+                                    <span class="multilang azul" lang="en">Free weight</span>
+                                    <span class="multilang azul" lang="es">Peso libre</span>
+                                </a>
+                            </div>
+                        </li>
+
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Pricing</a>
+                            <a class="nav-link" href="contacto.html">
+                                <span class="multilang azul" lang="en">Contact</span>
+                                <span class="multilang azul" lang="es">Contacto</span>
+                            </a>
                         </li>
                     </ul>
                 </div>
