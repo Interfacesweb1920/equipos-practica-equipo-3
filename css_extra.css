@@ -17,6 +17,10 @@ body {
     animation-timing-function: linear;
 }
 
+a p {
+    color: #21477b;
+}
+
 .portada {
     background-image: url('portada.jpg');
     background-repeat: no-repeat;
