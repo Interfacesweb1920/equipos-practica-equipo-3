@@ -216,4 +216,5 @@ td p {
 
 td {
     cursor: pointer;
+    vertical-align: middle;
 }
