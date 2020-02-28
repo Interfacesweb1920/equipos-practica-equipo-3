@@ -198,3 +198,7 @@ div i {
 #multilangMenu li {
     display: inline;
 }
+
+td p {
+    color: #f2f2f2!important
+}
